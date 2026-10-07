@@ -43,7 +43,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "pystac>=1,<2"
+  "pystac>=1.15.2,<2"
 ]
 
 # ---------------------------------------------------------------------------
@@ -117,7 +117,7 @@ exclude_lines = [
 skip-install = false
 dependencies = [
   "pytest>=9.1.1,<10",
-  "pystac[validation]>=1,<2",
+  "pystac[validation]>=1.15.2,<2",
   "pytest-cov>=7.1.0,<8",
 ]
 
@@ -161,7 +161,7 @@ dependencies = [
   "ruff>=0.16.9",
   "bandit>=1.9.4",
   "pytest>=9.1.1,<10",
-  "pystac[validation]>=1,<2",
+  "pystac[validation]>=1.15.2,<2",
 ]
 
 # ---------------------------------------------------------------------------
@@ -320,6 +320,6 @@ check = [
 [project.optional-dependencies]
 test = [
   "pytest>=9.1.1,<10",
-  "pystac[validation]>=1,<2",
+  "pystac[validation]>=1.15.2,<2",
   "pytest-cov>=7.1.0,<8"
 ]
